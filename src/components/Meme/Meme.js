@@ -22,7 +22,7 @@ export default function Meme() {
   }
 
   return (
-    <main>
+    <main className="form--main">
       <div className="form">
         <input
           type="text"
