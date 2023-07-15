@@ -1,7 +1,7 @@
 {
   "name": "meme-generator",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/derrak/meme-generator",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
