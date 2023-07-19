@@ -1,7 +1,7 @@
 import React from "react";
 import './Meme.css';
-//import memesData from '../../assets/data/memesData'
-import htmlToImage from 'html-to-image';
+import memesData from '../../assets/data/memesData'
+import { toPng } from 'html-to-image';
 import download from 'downloadjs';
 
 
@@ -47,7 +47,7 @@ export default function Meme() {
     const memeContainer = document.getElementById('meme-container');
 
     // Use htmlToImage to convert the meme container to an image
-    htmlToImage.toPng(memeContainer)
+    toPng(memeContainer)
       .then(function (dataUrl) {
         // Trigger the download using downloadjs
         download(dataUrl, 'meme.png');
@@ -76,19 +76,19 @@ export default function Meme() {
           name="bottomText"
           value={meme.bottomText}
         />
-        <button
-          className="form--button"
-          onClick={getMemeImage}
-        >
-          Get a new meme image 🖼
-        </button>
-        <button
-          className="form--button"
-          onClick={handleDownload}
-        >
-          Download Meme 📥
-        </button>
-      </div> 
+            <button
+              className="form--button"
+              onClick={getMemeImage}
+            >
+              Get a new meme image 🖼
+            </button>
+            <button
+              className="form--button"
+              onClick={handleDownload}
+            >
+              Download Meme 📥
+          </button>
+        </div> 
       <div className="meme" id="meme-container">
         <img src={meme.randomImage} className="meme--image" alt="" />
         <h2 className="meme--text top">{meme.topText}</h2>
