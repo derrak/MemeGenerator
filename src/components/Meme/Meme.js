@@ -1,6 +1,5 @@
 import React from "react";
 import './Meme.css';
-import memesData from '../../assets/data/memesData'
 import { toPng } from 'html-to-image';
 import download from 'downloadjs';
 
@@ -9,10 +8,10 @@ export default function Meme() {
   const [meme, setMeme] = React.useState({
     topText: "",
     bottomText: "",
-    randomImage: "https://i.imgflip.com/1bhw.jpg"
+    randomImage: "https://i.imgflip.com/gk5el.jpg"
   })
   
-  const [allMemes, setAllMemes] = React.useState(memesData)
+  const [allMemes, setAllMemes] = React.useState([])
 
   React.useEffect(() => {
     async function getMemes() {
