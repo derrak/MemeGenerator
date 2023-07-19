@@ -34,7 +34,7 @@ export default function Meme() {
 
   function handleChange(event) {
     //console.log(event)
-    const { name, value, type } = event.target
+    const { name, value, } = event.target
     setMeme(prevMemeData => {
       return {
         ...prevMemeData,
