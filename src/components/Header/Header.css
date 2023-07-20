@@ -20,4 +20,11 @@
 .header--project {
   font-size: 0.75rem;
   font-weight: 500;
+  color: white;
+}
+
+.header--ghLogo {
+  height: 100%;
+  margin-right: 4px;
+  filter: invert(100%);
 }
