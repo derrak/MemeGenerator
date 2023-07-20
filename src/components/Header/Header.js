@@ -1,12 +1,12 @@
 import React from "react";
 import './Header.css';
-import trollFace from '../../assets/img/Troll Face.png';
+import logo_success from '../../assets/img/logo_success.png';
 
 export default function Header() {
   return (
     <header className="header">
       <img
-        src={trollFace}
+        src={logo_success}
         className="header--image"
         alt=""
       />
