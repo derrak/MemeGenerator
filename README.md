@@ -3,7 +3,7 @@
 ![Meme Generator Logo](src/assets/img/logo_success.png)
 Welcome to the Meme Generator App! This interactive web application allows users to create and customize their own memes with ease. Whether you want to add a touch of humor to your day or share a viral sensation, this app has got you covered!
 
- 👀 Try the latest working version online at https://derrak.github.io/meme-generator/
+ **🚀 Try the latest working version online at https://derrak.github.io/meme-generator/**
 
 ## Table of Contents
 
