@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Meme Generator App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Meme Generator Logo](src/assets/img/logo_success.png)
+Welcome to the Meme Generator App! This interactive web application allows users to create and customize their own memes with ease. Whether you want to add a touch of humor to your day or share a viral sensation, this app has got you covered!
 
-## Available Scripts
+ 👀 Try the latest working version online at https://derrak.github.io/meme-generator/
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This React app leverages various concepts to create a user-friendly and dynamic application. The app is designed to make meme creation and customization simple and enjoyable.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Meme Generator App includes the following features:
 
-### `npm run build`
+1. **Interactive Web App**: The app provides a seamless and interactive user experience, allowing the user to input text on top of the image.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Event Listeners**: Event listeners capture user actions, enabling dynamic changes based on user input.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Props**: Props facilitate the passing of data and functionality between different components, ensuring a modular and organized code structure.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **State**: The app utilizes the useState hook to manage its state, enabling real-time updates and consistent data handling.
 
-### `npm run eject`
+5. **Conditional Rendering**: The app employs conditional rendering techniques to display specific components based on the app's state and user interactions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. **Forms with Controlled Inputs**: The design and handling of forms with controlled inputs allow for efficient user input capture and smooth data management.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. **Side Effects and Making API Calls with the useEffect Hook**: The app performs API calls using the useEffect hook, allowing it to fetch external meme images.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. **Saving Created Memes**: Users are able to download created memes with the [html-to-image](https://github.com/bubkoo/html-to-image).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
+Follow these instructions to get a copy of the Meme Generator App up and running on your local machine.
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository to your local machine using the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git clone https://github.com/derrak/meme-generator.git
+   ```
 
-### Code Splitting
+2. Navigate to the project's directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   cd meme-generator
+   ```
 
-### Analyzing the Bundle Size
+3. Install the necessary dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm install
+   ```
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run the app locally, use the following command:
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The app will start on your localhost, and you can access it in your web browser.
 
-### Deployment
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The Meme Generator App was built using the following technologies:
 
-### `npm run build` fails to minify
+- React
+- JavaScript
+- HTML
+- CSS
+- [html-to-image](https://github.com/bubkoo/html-to-image)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for personal and commercial purposes.
+
+---
+
+Thank you for using the Meme Generator App! Have fun creating hilarious and creative memes! If you have any questions or need further assistance, please don't hesitate to contact us. Happy meme-making!
