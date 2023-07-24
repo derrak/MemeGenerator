@@ -20,7 +20,7 @@ export default function Header() {
       <h4 >
         <a href="https://github.com/derrak/meme-generator"
           target="_blank"
-        className="header--project">
+          className="header--project">
           Check out the repo
         </a>
       </h4>
