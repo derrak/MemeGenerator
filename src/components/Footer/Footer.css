@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.footer--dark {
+  color: rgb(140, 140, 140);
+}
+
+.footer--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.footer--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.footer--project {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
+}
+
+.footer--project--dark {
+  color: rgb(140, 140, 140);
+}
+
+.footer--ghLogo {
+  height: 100%;
+  margin-right: 4px;
+  filter: invert(100%);
+}
+
+.footer--ghLogo--dark {
+  filter: invert(60%);
+}
